@@ -7,12 +7,6 @@ class Shoe
     @brand= brand 
      BRANDS << !BRANDS.includes? brand 
    end 
-     
-     def compare
-       if @brand.!includes BRANDS
-         BRANDS << brand 
-      end
-    end 
 
   def size
     @size= 3
