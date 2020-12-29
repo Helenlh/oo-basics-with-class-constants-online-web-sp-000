@@ -12,6 +12,7 @@ class Shoe
     @size= 3
   end 
   
+  
   def cobble
     self.condition = "new"
   end 
